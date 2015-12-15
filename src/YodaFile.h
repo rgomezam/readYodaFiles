@@ -1,10 +1,3 @@
-/*
- * YodaFile.h
- *
- *  Created on: Sep 5, 2015
- *      Author: raquel
- */
-
 #ifndef YODAFILE_H_
 #define YODAFILE_H_
 #include "Plot.h"
@@ -25,6 +18,9 @@ public:
 
 	void comparePlotsTakeSmaller(YodaFile &);
 	void comparePlotsTakeBigger(YodaFile &);
+
+	void showStatistics(YodaFile &);
+	void switchHeaders(YodaFile &);
 
 private:
 	char myName[30];
