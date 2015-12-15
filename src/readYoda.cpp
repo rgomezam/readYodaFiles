@@ -23,6 +23,18 @@ rivet::YodaFile p6("mcfileMGNLO-scale6.yoda");
 rivet::YodaFile p7("mcfileMGNLO-scale7.yoda");
 rivet::YodaFile p8("mcfileMGNLO-scale8.yoda");
 
+// And for Powheg:
+/*rivet::YodaFile p1("mcfilePow-scale-1-2.yoda");
+rivet::YodaFile p2("mcfilePow-scale-2-2.yoda");
+rivet::YodaFile p3("mcfilePow-scale-3-2.yoda");
+rivet::YodaFile p4("mcfilePow-scale-4-2.yoda");
+rivet::YodaFile p5("mcfilePow-scale-5-2.yoda");
+rivet::YodaFile p6("mcfilePow-scale-6-2.yoda");
+rivet::YodaFile p7("mcfilePow-scale-7-2.yoda");
+rivet::YodaFile p8("mcfilePow-scale-8-2.yoda");*/  
+
+
+
 int main() {
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 
