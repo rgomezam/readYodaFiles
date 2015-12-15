@@ -24,7 +24,7 @@ Plot::Plot(int num, string name) {
 }
 
 Plot::~Plot() {
-cout << "deleting plot " <<  this->plotNum << endl;
+//cout << "deleting plot " <<  this->plotNum << endl;
 }
 
 void Plot::setHeader(string linei,int i) {
